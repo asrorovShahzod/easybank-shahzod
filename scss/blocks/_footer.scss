@@ -1,0 +1,135 @@
+.footer {
+    background: #2D314D;
+    padding: 48px 0;
+}
+
+.container {}
+
+.footer__box {
+    display: flex;
+}
+
+.footer__brand {}
+
+.footer__logo {}
+
+.footer__logoimage {
+    margin-bottom: 55px;
+}
+
+.footer__network {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.footer__networks {}
+
+.footernetworks-link {
+    text-decoration: none;
+    color: #30C88F;
+    margin-right: 13px;
+}
+
+.footer__networks-img {
+    &:hover {
+        color: #30C88F;
+    }
+}
+
+.footer__item {
+    padding: 0;
+    list-style: none;
+    margin-left: 130px;
+    margin-top: 0;
+}
+
+.footer__list {
+    margin-bottom: 8px;
+    width: 90px;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-family: PublicSans;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.234375px;
+    color: #FFFFFF;
+    &:hover {
+        color: #30C88F;
+    }
+}
+
+.header__link {}
+
+.footer__infoo {
+    font-family: PublicSans;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: right;
+    letter-spacing: -0.234375px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-top: 24px;
+}
+
+.footer__button {
+    width: 250px;
+    display: block;
+    padding-left: 50px;
+    margin-left: 172px;
+}
+
+.footer-link {
+    display: inline;
+    align-content: flex-end;
+    margin-left: 36px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .footer__box {
+        display: block;
+    }
+    .footer__item {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+        display: grid;
+        justify-content: center;
+    }
+    .footer__list {
+        margin: 0;
+    }
+    .footer__brand {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer__network {
+        margin: 0 auto;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+    .footer__logoimage {
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+    .footer__button {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+    .footer__link {
+        text-align: center;
+        display: inline-block;
+    }
+    .footer-link {
+        margin: 0;
+    }
+    .footer__infoo {
+        text-align: center;
+        padding-left: 0;
+    }
+}

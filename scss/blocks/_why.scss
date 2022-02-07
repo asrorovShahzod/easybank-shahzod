@@ -1,0 +1,128 @@
+.why {
+    background: #F4F5F7;
+    padding-top: 96px;
+    padding-bottom: 94px;
+}
+
+.container {}
+
+.why__box {
+    width: 100%;
+}
+
+.why__title {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+    margin-bottom: 16px;
+}
+
+.why__text {
+    max-width: 630px;
+    font-family: PublicSans;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin-bottom: 72px;
+}
+
+.why_item {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.why_list {
+    width: 225px;
+}
+
+.why_link {
+    text-decoration: none;
+}
+
+.why__image {
+    margin-bottom: 40px;
+}
+
+.why__info {
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.428571px;
+    color: #2D314D;
+    margin-bottom: 26px;
+}
+
+.why__line {
+    font-family: PublicSans;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #9597A5;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .why__box {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .why {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .why__title {
+        width: 100%;
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.571429px;
+        color: #2D314D;
+    }
+    .why__text {
+        width: 100%;
+        font-family: PublicSans;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.234375px;
+        color: #9597A5;
+    }
+    .why_item {
+        display: block;
+        width: 100%;
+    }
+    .why_list {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20%;
+    }
+    .why__info {
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.357143px;
+        color: #2D314D;
+    }
+    .why__line {
+        font-family: PublicSans;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.234375px;
+        color: #9597A5;
+    }
+}

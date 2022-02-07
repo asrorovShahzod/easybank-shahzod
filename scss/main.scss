@@ -1,0 +1,9 @@
+@import "fonts";
+@import "general";
+@import "normalize";
+@import "variables";
+@import "./blocks/block";
+.wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
